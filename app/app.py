@@ -82,4 +82,5 @@ def solve():
         return render_template('error.html', mensaje=f"Ocurrió un error: {e}")
 
 if __name__ == '__main__':
-    app.run(debug=True, port=5000)
+    app.run()
+    #app.run(debug=True, port=5000)
